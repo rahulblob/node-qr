@@ -1,0 +1,22 @@
+{
+  "name": "qr-code-api",
+  "version": "1.0.0",
+  "description": "an api to generate qr code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rahul Lodhi",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "build": "^0.1.4",
+    "express": "^4.18.2",
+    "node-fetch": "^3.2.6",
+    "qrcode": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
